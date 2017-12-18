@@ -8,7 +8,7 @@ Starter Kit : Meteor + React + Redux + React Router + Ant Design
 4. run ```meteor``` to start (default meteor port 3000 - ```http://localhost:3000```)
 
 ### ▶️ Overwrite Ant Design LESS Variables
-1. Edit file antd_overwrite.less
+1. Edit file ```/antd_overwrite.less```
 2. run ```lessc --clean-css antd_overwrite.less ./public/antd.min.css```
 
 ### ▶️ Recommended Folder Structure
