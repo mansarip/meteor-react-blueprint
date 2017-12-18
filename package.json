@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "css" : "lessc --clean-css antd_overwrite.less ./public/antd.min.css"
+    "css": "lessc --clean-css antd_overwrite.less ./public/antd.min.css"
   },
   "dependencies": {
     "antd": "^3.0.1",
