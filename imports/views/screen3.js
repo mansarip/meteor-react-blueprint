@@ -4,10 +4,9 @@ import { connect } from 'react-redux';
 class Screen3 extends Component {
     constructor(props) {
         super(props);
-        this.navigate = this.navigate.bind(this);
     }
 
-    navigate(event, path) {
+    navigate = (event, path) => {
         event.preventDefault();
         this.props.history.push(path);
     }
